@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # this removes all pyc file under this location - recursively
 
-export RTWO_HOME=/opt/dev/dtwo # For dalloway, arturo
+export STRATOSPHERE_HOME=/opt/dev/stratosphere
 
-find ${RTWO_HOME} -name "*.pyc" -exec rm '{}' ';'
+find ${STRATOSPHERE_HOME} -name "*.pyc" -exec rm '{}' ';'
